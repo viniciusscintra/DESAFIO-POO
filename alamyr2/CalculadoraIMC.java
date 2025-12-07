@@ -2,8 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.time.LocalDate;
 import java.time.Period;
-import javax.swing.*;
-
+import javax.swing.*; 
 public class CalculadoraIMC extends JFrame {
 
     private JTextField txtNome, txtAltura, txtPeso;
@@ -255,3 +254,4 @@ public class CalculadoraIMC extends JFrame {
         new CalculadoraIMC().setVisible(true);
     }
 }
+
